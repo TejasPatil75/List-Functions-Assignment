@@ -1,0 +1,26 @@
+In Python, both the remove() and pop() functions are used to remove elements from a list, but they differ in how they work and what they return:
+
+1. remove() function:
+
+The remove() function is used to remove the first occurrence of a specified value from the list.
+Syntax: list_name.remove(value)
+This method modifies the original list in place.
+If the specified value is not found in the list, it raises a ValueError.
+This method does not return any value; it only removes the specified value from the list.
+Example:
+my_list = [1, 2, 3, 2, 4]
+my_list.remove(2)
+
+2. pop() function:
+
+The pop() function is used to remove and return the element at a specified index position from the list.
+Syntax: list_name.pop(index)
+This method modifies the original list in place.
+If no index is specified, it removes and returns the last element of the list.
+This method returns the removed element.
+Example:
+my_list = [1, 2, 3, 4]
+removed_element = my_list.pop(1)
+
+In summary, the main difference between remove() and pop() is that remove() removes the specified value from the list, while pop() removes and returns the element at the specified index position.
+

@@ -1,0 +1,7 @@
+In Python, you can add an element to a list using the append() method or the insert() method. Here's the syntax for both methods:
+
+1.Using append() method:  list_name.append(element)
+
+2. Using insert() method:  list_name.insert(index, element)
+
+
